@@ -12,7 +12,7 @@ const ButtonSound = ({ soundName }) => {
   return (
     <>
         <div >
-      <audio controls className="w-[95%]">
+      <audio controls className="w-[100%]">
         <source src={soundName} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>

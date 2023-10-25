@@ -16,7 +16,7 @@ const ButtonSound2 = ({ soundName }) => {
   return (
     <>
       <div >
-        <audio id={soundName} controls className="w-[95%]">
+        <audio id={soundName} controls className="w-[100%]">
           <source src={soundName} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
@@ -27,6 +27,7 @@ const ButtonSound2 = ({ soundName }) => {
           step="0.1"
           value={volume}
           onChange={handleVolumeChange}
+          className="mx-4"
         />
       </div>
     </>
