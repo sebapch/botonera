@@ -45,7 +45,8 @@ export default function Home() {
         <ButtonSound soundName={DisparosFX} />
         <h4>Besame Silbido</h4>
         <ButtonSound soundName={Silvido} />
-
+        <h4>Campanita</h4>
+        <ButtonSound soundName={Campanita} />
         <div className="w-full text-center">
           <h1>Escena 8</h1>
         </div>
