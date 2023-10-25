@@ -45,13 +45,14 @@ export default function Home() {
         <ButtonSound soundName={DisparosFX} />
         <h4 className="mx-4">Besame Silbido</h4>
         <ButtonSound soundName={Silvido} />
-        <h4 className="mx-4">Campanita</h4>
-        <ButtonSound soundName={Campanita} />
+        
         <div className="w-full text-center">
           <h1>Escena 8</h1>
         </div>
         <h4 className="mx-4">Besame mucho con volumen</h4>
         <ButtonSound2 soundName={Besame} />
+        <h4 className="mx-4">Campanita</h4>
+        <ButtonSound soundName={Campanita} />
         <h4 className="mx-4">Bomba</h4>
         <ButtonSound soundName={Bomba} className='mb-16' />
       </div>
